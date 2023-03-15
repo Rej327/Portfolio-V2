@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,100&family=Zeyada&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo {
+  font-family: "Zeyada", cursive;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.socialText {
+  width: 278px;
+  height: 39px;
+  left: 678px;
+  top: 36px;
+  color: rgba(0, 0, 0, 0);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.1px;
+  text-decoration: none;
+  text-transform: none;
+}
