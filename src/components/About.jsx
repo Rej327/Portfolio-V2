@@ -6,7 +6,7 @@ export default function About() {
       <div className="lg:flex">
         <img src={profile} />
         <div className="mt-5 w-full">
-          <p className="text-5xl text-center mt-14 mb-5">About Me</p>
+          <p className="header mt-14 mb-5">About Me</p>
           <p className="px-10 py-5 text-xl">
             Hi! I’m Jefferson Resurreccion, and I am 23 years old. I graduated
             from Southern Luzon State University year 2019 with a degree of

@@ -70,3 +70,9 @@ button:hover::before {
   right: 0;
   opacity: 1;
 }
+
+.header {
+  font-size: 3rem /* 48px */;
+  line-height: 1;
+  text-align: center;
+}
