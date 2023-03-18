@@ -20,8 +20,8 @@ export default function ClyBlog() {
           <h1 className="py-2 text-2xl">Description:</h1>
           <p className="py-2">
             <strong>Cly Blog </strong>
-            is a website that I created using MERN stack and styled it using
-            TailwindCSS.
+            is a wep application that I created using MERN stack and styled it
+            using TailwindCSS.
             <br />
             <br />
             This is my <strong>2nd</strong> personal project, through my study
