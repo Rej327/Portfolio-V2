@@ -12,7 +12,7 @@ export default function CoverLetter() {
         </p>
       </div>
       <div className="w-fit mx-auto">
-        <button className="text-base">
+        <button className="text-base bGlobal">
           <span>My Works</span>
         </button>
       </div>

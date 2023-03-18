@@ -31,7 +31,7 @@ p {
   color: rgb(87, 87, 87);
 }
 
-button {
+.bGlobal {
   background: #e2e2e2;
   border: none;
   padding: 10px 20px;
@@ -48,7 +48,7 @@ span {
   transform: skew(21deg);
 }
 
-button::before {
+.bGlobal::before {
   content: "";
   position: absolute;
   top: 0;
@@ -61,11 +61,11 @@ button::before {
   transition: all 0.5s;
 }
 
-button:hover {
+.bGlobal:hover {
   color: #fff;
 }
 
-button:hover::before {
+.bGlobal:hover::before {
   left: 0;
   right: 0;
   opacity: 1;
