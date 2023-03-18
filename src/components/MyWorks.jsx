@@ -24,7 +24,7 @@ export default function MyWorks() {
     },
     {
       uuid: 3,
-      heading: "REGAVANA BAND WEB APPLICAITON",
+      heading: "REGAVANA BAND WEB APPLICATION",
       content: <Regavana />,
     },
     {
