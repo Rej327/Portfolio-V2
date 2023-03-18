@@ -21,7 +21,7 @@ export default function Solar() {
             <br />
             This is my <strong>1st</strong> personal project and I only
             implement my fundamental knowledge of those three programming
-            languages that I learned with healp of freeCodeCamp activities.
+            languages that I learned with help of freeCodeCamp activities.
           </p>
           <h1 className="pt-2">Technology:</h1>
           <div className="flex gap-2 my-2 text-4xl text-gray-400">
