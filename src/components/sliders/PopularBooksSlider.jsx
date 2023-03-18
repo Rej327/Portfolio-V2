@@ -1,16 +1,17 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import "../App.css";
+import "../../App.css";
 import { Pagination, Autoplay } from "swiper";
-import home from "../assets/works/solar/home.png";
-import sample from "../assets/works/solar/sample.png";
-import team from "../assets/works/solar/team.png";
-import about from "../assets/works/solar/about.png";
-import contact from "../assets/works/solar/contact.png";
+import home from "../../assets/works/popularbooks/Home.png";
+import add from "../../assets/works/popularbooks/add.png";
+import addData from "../../assets/works/popularbooks/adddata.png";
+import update from "../../assets/works/popularbooks/update.png";
+import del from "../../assets/works/popularbooks/delete.png";
+import data from "../../assets/works/popularbooks/data.png";
 
-export default function SolarSlider() {
+export default function PopularBooksSlider() {
   return (
     <>
       <Swiper
@@ -26,16 +27,19 @@ export default function SolarSlider() {
           <img src={home} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={sample} />
+          <img src={add} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={about} />
+          <img src={addData} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={team} />
+          <img src={update} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={contact} />
+          <img src={del} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={data} />
         </SwiperSlide>
       </Swiper>
     </>
