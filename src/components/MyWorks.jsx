@@ -1,3 +1,4 @@
+import ClyBlog from "./ClyBlog";
 import Solar from "./solar";
 
 export default function MyWorks() {
@@ -6,6 +7,7 @@ export default function MyWorks() {
       <p className="header">MY WORKS</p>
       <div className="w-full">
         <Solar />
+        <ClyBlog />
       </div>
     </div>
   );
