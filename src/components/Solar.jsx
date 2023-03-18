@@ -1,7 +1,7 @@
 import { AiFillHtml5 } from "react-icons/ai";
 import { IoLogoCss3 } from "react-icons/io";
 import { DiJavascript } from "react-icons/di";
-import SolarSlider from "./SolarSlider";
+import SolarSlider from "./sliders/SolarSlider";
 import { RxDotFilled } from "react-icons/rx";
 import { BsCodeSlash } from "react-icons/bs";
 
@@ -29,7 +29,7 @@ export default function Solar() {
             <IoLogoCss3 className="hover:text-blue-500 duration-300" />
             <DiJavascript className="hover:text-yellow-500 duration-300" />
           </div>
-          <div className="flex gap-4">
+          <div className="flex gap-4 w-fit mx-auto sm:mx-0">
             <p className="flex">
               <BsCodeSlash className="text-violet-600 text-xl" />
               <a
