@@ -139,3 +139,17 @@ span {
     opacity: 1;
   }
 }
+
+.reachCover {
+  /* The image used */
+  background-image: url("https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
+  /* Full height */
+  height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
