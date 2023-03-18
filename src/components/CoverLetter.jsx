@@ -12,9 +12,11 @@ export default function CoverLetter() {
         </p>
       </div>
       <div className="w-fit mx-auto">
-        <button className="text-base bGlobal">
-          <span>My Works</span>
-        </button>
+        <a href="#works">
+          <button className="text-base bGlobal">
+            <span>My Works</span>
+          </button>
+        </a>
       </div>
     </div>
   );
