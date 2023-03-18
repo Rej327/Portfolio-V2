@@ -19,7 +19,7 @@ export default function ReachMe() {
               Find me on my network!
             </p>
           </div>
-          <div className="bg-white bg-opacity-80 border-[1px] flex p-10 justify-between text-4xl ">
+          <div className="bg-white bg-opacity-80 border-[1px] flex gap-2 p-5 sm:p-10 justify-between text-4xl ">
             <a
               href="https://www.messenger.com/t/100006001121564"
               target="_blank"
