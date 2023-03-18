@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "../../App.css";
 import { Pagination, Autoplay } from "swiper";
-import home from "../../assets/works/popularbooks/Home.png";
+import home from "../../assets/works/popularbooks/home.png";
 import add from "../../assets/works/popularbooks/add.png";
 import addData from "../../assets/works/popularbooks/adddata.png";
 import update from "../../assets/works/popularbooks/update.png";
