@@ -4,10 +4,18 @@ export default function Hero() {
   return (
     <div className="w-full lg:h-screen relative ">
       <div className="w-full  mt-[20%] absolute flex flex-col items-center justify-center">
-        <h1 className="logo text-white text-5xl md:text-7xl lg:text-9xl">
+        <h1
+          data-aos="fade-down"
+          data-aos-duration="500"
+          className="logo text-white text-5xl md:text-7xl lg:text-9xl"
+        >
           JEFFERSON
         </h1>
-        <p className="logo text-white text-xl sm:text-2xl md:text-3xl lg:text-5xl">
+        <p
+          data-aos="fade-up"
+          data-aos-duration="500"
+          className="logo text-white text-xl sm:text-2xl md:text-3xl lg:text-5xl"
+        >
           Frontend Web Developer
         </p>
       </div>
@@ -50,7 +58,6 @@ export default function Hero() {
           </p>
         </a>
       </div>
-
       <img src={heroImage} className="w-full lg:h-full " />
     </div>
   );

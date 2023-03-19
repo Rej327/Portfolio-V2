@@ -10,7 +10,11 @@ import { AiFillPhone } from "react-icons/ai";
 export default function ReachMe() {
   return (
     <div className="reachCover mt-20 p-10 grid items-center">
-      <div className="sm:w-[40rem] bg-black bg-opacity-50 sm:mx-auto">
+      <div
+        data-aos="zoom-in-up"
+        data-aos-duration="1000"
+        className="sm:w-[40rem] bg-black bg-opacity-50 sm:mx-auto"
+      >
         <p className="header max-sm:text-2xl text-white pt-10">
           Reach Me Out at:
         </p>

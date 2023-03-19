@@ -35,7 +35,12 @@ export default function MyWorks() {
   ];
 
   return (
-    <div className="w-full pt-28" id="works">
+    <div
+      data-aos="fade-in"
+      data-aos-duration="1000"
+      className="w-full pt-28"
+      id="works"
+    >
       <p className="header">MY WORKS</p>
       <Accordion allowZeroExpanded={true} className="mt-10">
         {items.map((item) => (
