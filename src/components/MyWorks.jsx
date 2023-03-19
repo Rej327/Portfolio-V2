@@ -35,9 +35,9 @@ export default function MyWorks() {
   ];
 
   return (
-    <div className="w-full mt-10" id="works">
+    <div className="w-full pt-28" id="works">
       <p className="header">MY WORKS</p>
-      <Accordion allowZeroExpanded={true} className="my-10">
+      <Accordion allowZeroExpanded={true} className="mt-10">
         {items.map((item) => (
           <AccordionItem key={item.uuid}>
             <AccordionItemHeading>
