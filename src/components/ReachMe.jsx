@@ -10,18 +10,20 @@ import { AiFillPhone } from "react-icons/ai";
 export default function ReachMe() {
   return (
     <div className="reachCover mt-20 p-10 grid items-center">
-      <div className="sm:w-[40rem] bg-black bg-opacity-50 mx-auto">
-        <p className="header text-white pt-10">Reach Me Out at:</p>
+      <div className="sm:w-[40rem] bg-black bg-opacity-50 sm:mx-auto">
+        <p className="header max-sm:text-2xl text-white pt-10">
+          Reach Me Out at:
+        </p>
         <div className="my-10 mx-auto">
           <div className="flex">
             <div className="border-[1px] border-[#352495] mt-8 h-0 w-full"></div>
-            <p className="w-full text-xl md:text-2xl px-0 py-4 text-center text-white">
+            <p className="w-full text-sm md:text-2xl px-0 py-4 text-center text-white">
               Find me on my network!
             </p>
           </div>
-          <div className="bg-white bg-opacity-80 border-[1px] flex gap-2 p-5 sm:p-10 justify-between text-4xl ">
+          <div className="bg-white bg-opacity-80 border-[1px] flex gap-2 p-5 sm:p-10 justify-between text-2xl sm:text-4xl ">
             <a
-              href="https://www.messenger.com/t/100006001121564"
+              href="https://www.facebook.com/resujeff27"
               target="_blank"
               rel="noreferrer"
             >
