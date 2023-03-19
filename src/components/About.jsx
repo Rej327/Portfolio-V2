@@ -1,4 +1,6 @@
 import profile from "../assets/profile.png";
+import mycv from "../assets/mycv.pdf";
+import { AiOutlineDownload } from "react-icons/ai";
 
 export default function About() {
   return (
@@ -7,7 +9,7 @@ export default function About() {
         <img src={profile} />
         <div className="mt-5 w-full">
           <p className="header mt-14 mb-5">About Me</p>
-          <p className="px-10 py-5 text-xl">
+          <p className="px-10 pt-5 text-xl">
             Hi! I’m Jefferson Resurreccion, and I am 23 years old. I graduated
             from Southern Luzon State University year 2019 with a degree of
             Bachelor of Industrial Technology Major in Computer Technology.
@@ -30,6 +32,16 @@ export default function About() {
             developing, and I love to create beautiful and performant websites
             with enjoyable user experiences.
           </p>
+          <div className="w-fit my-10 mx-auto">
+            <a href={mycv} download={mycv} target="_blank" rel="noreferrer">
+              <button className="bGlobal">
+                <span className="flex">
+                  My CV
+                  <AiOutlineDownload className="text-xl" />
+                </span>
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </div>
