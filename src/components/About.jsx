@@ -5,7 +5,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 export default function About() {
   return (
     <div data-aos="fade-in" data-aos-duration="1000" className="w-full my-20">
-      <div className="lg:flex">
+      <div className="lg:flex items-center">
         <img src={profile} />
         <div className="mt-5 w-full">
           <p className="header mt-14 mb-5">About Me</p>

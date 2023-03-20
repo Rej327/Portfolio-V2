@@ -52,7 +52,7 @@ export default function MyWorks() {
                 </h1>
               </AccordionItemButton>
             </AccordionItemHeading>
-            <AccordionItemPanel className="pb-10">
+            <AccordionItemPanel className="pb-10 max-w-[1600px] mx-auto">
               {item.content}
             </AccordionItemPanel>
           </AccordionItem>
